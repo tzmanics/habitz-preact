@@ -23,6 +23,10 @@
     "preact-cli": "^2.0.1"
   },
   "dependencies": {
+    "@progress/kendo-dropdowns-react-wrapper": "^2017.3.1124",
+    "@progress/kendo-inputs-react-wrapper": "^2017.3.1124",
+    "@progress/kendo-theme-material": "^0.3.0",
+    "@progress/kendo-ui": "^2017.3.1116",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7"
