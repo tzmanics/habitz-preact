@@ -4,11 +4,41 @@
   width: 100%;
 }
 
-.k-autocomplete {
-  width: 50%;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.k-numerictextbox {
-  width: 20%;
+li {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  float: left;
+  line-height: 5px;
+  margin: 0;
+  padding: 7px;
+  width: 100%;
+}
+
+li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+li h3 {
+  float: left;
+  margin: 0;
+}
+
+li input {
+  display: inline-block;
+  float: right;
+  white-space: nowrap;
+}
+
+span.k-input .k-numerictextbox .k-numeric-wrap {
+  float: left;
+}
+
+button {
+  float: right;
 }
 
