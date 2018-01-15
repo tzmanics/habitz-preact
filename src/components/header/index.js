@@ -6,11 +6,12 @@ export default class Header extends Component {
   render() {
     return (
       <header class={style.header}>
-        <h1>Preact App</h1>
+        <h1>HABITZ</h1>
+	<p>iterations to make habitz to accomplish goals</p>
         <nav>
-          <Link activeClassName={style.active} href="/">Home</Link>
-          <Link activeClassName={style.active} href="/profile">Me</Link>
-          <Link activeClassName={style.active} href="/profile/john">John</Link>
+          <Link activeClassName={style.active} href="/">GOALS</Link>
+          <Link activeClassName={style.active} href="/charts">CHARTS</Link>
+          <Link activeClassName={style.active} href="/days">DAYS</Link>
         </nav>
       </header>
     );

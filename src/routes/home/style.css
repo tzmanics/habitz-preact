@@ -3,3 +3,12 @@
   min-height: 100%;
   width: 100%;
 }
+
+.k-autocomplete {
+  width: 50%;
+}
+
+.k-numerictextbox {
+  width: 20%;
+}
+
