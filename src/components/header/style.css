@@ -20,13 +20,12 @@
 
 .header nav a {
   display: inline-block;
-  height: 40px;
-  line-height: 46px;
+  line-height: 30px;
   width: 33%;
   padding: 0 15px;
   min-width: 50px;
   text-align: center;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.2);
   text-decoration: none;
   color: white;
   will-change: background-color;
@@ -34,9 +33,9 @@
 
 .header nav a:hover,
 .header nav a:active {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.4);
 }
 
 .header nav a.active {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.6);
 }
