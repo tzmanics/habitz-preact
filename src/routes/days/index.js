@@ -7,7 +7,6 @@ export default class Days extends Component {
   render({ time }) {
     return (
       <div class={style.days}>
-        <h1>Habitz Day by Day</h1>
 	<div class='datepicker'>
 	  <DatePicker>
 	  </DatePicker>

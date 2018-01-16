@@ -10,7 +10,6 @@ export default class Header extends Component {
 	<p>iterations to make habitz to accomplish goals</p>
         <nav>
           <Link activeClassName={style.active} href="/">GOALS</Link>
-          <Link activeClassName={style.active} href="/charts">CHARTS</Link>
           <Link activeClassName={style.active} href="/days">DAYS</Link>
         </nav>
       </header>
