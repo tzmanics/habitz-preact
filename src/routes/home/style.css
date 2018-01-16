@@ -4,41 +4,19 @@
   width: 100%;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  background-color: rgba(255, 255, 255, 0.6);
+.goal-name {
   display: inline-block;
-  float: left;
-  line-height: 5px;
   margin: 0;
-  padding: 7px;
-  width: 100%;
+  width: 60%;
 }
 
-li:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-li h3 {
-  float: left;
-  margin: 0;
-}
-
-li input {
+.goal-iteration {
   display: inline-block;
-  float: right;
-  white-space: nowrap;
-}
-
-span.k-input .k-numerictextbox .k-numeric-wrap {
-  float: left;
+  width: 20%;
+  margin: 0;
 }
 
 button {
-  float: right;
+  display: inline-block;
 }
 

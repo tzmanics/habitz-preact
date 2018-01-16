@@ -13,14 +13,18 @@ export default class Home extends Component {
 	<div class='goals-list'>
 	</div>
 	<div class='create-goals'>
-	  <AutoComplete value='Enter Goal' DataSource={[
-	    'Water',
-            'Work Out',
-	    'No Sugar',
-	    'Meditate'
-	  ]} />
-	  <NumericTextBox>
-	  </NumericTextBox>
+	  <div class='goal-name'>
+	    <AutoComplete value='Enter Goal' DataSource={[
+	      'Water',
+              'Work Out',
+	      'No Sugar',
+	      'Meditate'
+	    ]} />
+	  </div>
+	  <div class='goal-iteration'>
+	    <NumericTextBox>
+	    </NumericTextBox>
+	  </div>
 	  <Button>+</Button>
 	</div>
       </div>
